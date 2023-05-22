@@ -1,0 +1,15 @@
+/Users/simonmork/Desktop/RAD_project/obj/Debug/net7.0/RAD_project.csproj.AssemblyReference.cache
+/Users/simonmork/Desktop/RAD_project/obj/Debug/net7.0/RAD_project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/simonmork/Desktop/RAD_project/obj/Debug/net7.0/RAD_project.AssemblyInfoInputs.cache
+/Users/simonmork/Desktop/RAD_project/obj/Debug/net7.0/RAD_project.AssemblyInfo.cs
+/Users/simonmork/Desktop/RAD_project/obj/Debug/net7.0/RAD_project.csproj.CoreCompileInputs.cache
+/Users/simonmork/Desktop/RAD_project/bin/Debug/net7.0/RAD_project
+/Users/simonmork/Desktop/RAD_project/bin/Debug/net7.0/RAD_project.deps.json
+/Users/simonmork/Desktop/RAD_project/bin/Debug/net7.0/RAD_project.runtimeconfig.json
+/Users/simonmork/Desktop/RAD_project/bin/Debug/net7.0/RAD_project.dll
+/Users/simonmork/Desktop/RAD_project/bin/Debug/net7.0/RAD_project.pdb
+/Users/simonmork/Desktop/RAD_project/obj/Debug/net7.0/RAD_project.dll
+/Users/simonmork/Desktop/RAD_project/obj/Debug/net7.0/refint/RAD_project.dll
+/Users/simonmork/Desktop/RAD_project/obj/Debug/net7.0/RAD_project.pdb
+/Users/simonmork/Desktop/RAD_project/obj/Debug/net7.0/RAD_project.genruntimeconfig.cache
+/Users/simonmork/Desktop/RAD_project/obj/Debug/net7.0/ref/RAD_project.dll
