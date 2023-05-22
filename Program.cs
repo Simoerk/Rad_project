@@ -6,9 +6,10 @@ class Program
     {
         Hash_util hash_util = new Hash_util();  // Instantiate the class
         
-        ulong x = 59;
+        ulong multiRes = hash_util.mulitplyShift();
+        
+        
 
-        ulong p = hash_util.CalculateH(x);  // Call the function
-        Console.WriteLine(p);
+
     }
 }

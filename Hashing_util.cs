@@ -22,5 +22,23 @@ public class Hash_util
         return number;  // Return the number unchanged if it is already odd
     }
 
+    public ulong mulitplyShift(){
+        Hash_util hash_util = new Hash_util();  // Instantiate the class
+        
+        ulong x = 59;
+
+        ulong p = hash_util.CalculateH(x);  // Call the function
+
+        Console.WriteLine(p);
+
+        return p;
+    }
+
+    public ulong multiplyModPrime(){
+        
+        
+        return 1;
+    }
+
 
 }
