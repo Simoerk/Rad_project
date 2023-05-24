@@ -25,5 +25,4 @@ public class Hash_multiply_mod_prime
 
         return Result;
     }
-
 }
