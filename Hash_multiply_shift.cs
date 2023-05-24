@@ -1,37 +1,34 @@
 namespace Hashing_util;
+using Hashes;
 
-public class Hash_multiply_shift
+public class Hash_multiply_shift : IHashFunct
 {
 // Implementering af hashfunktioner
 // Opgave 1 (a)
-    public ulong CalculateHMultyShift(ulong x)
-    {
-        int l = 32;
-        ulong a = MakeOdd("1111110111101010001111111000101000000101011100101000110010101010");
-        return (a * x) >> (64 - l);
-    }
+    
+    private ulong a { get; set; } = 18296506298175491242;
 
-
-    public ulong MakeOdd(string binary)
+    public ulong MakeOdd(ulong number)
     {
 
-        ulong number = Convert.ToUInt64(binary, 2);
+        //ulong number = Convert.ToUInt64(binary, 2);
 
-        if ((number & 1UL) == 0UL)  // Check if the number is even
-            return number | 1UL;    // Set the least significant bit to 1 to make it odd
+        if ((number & 1) == 0)  // Check if the number is even
+            return number | 1;    // Set the least significant bit to 1 to make it odd
 
         return number;  // Return the number unchanged if it is already odd
     }
 
-    public ulong multiplyShift(){
+    public ulong HashFunction(ulong x, int l){
         
-        ulong x = 59;
+        //ulong x = 59;
+        ulong a1 = MakeOdd(a);
 
-        ulong p = CalculateHMultyShift(x);  // Call the function
+        //ulong p = CalculateHMultyShift(x);  // Call the function
 
         //Console.WriteLine(p);
 
-        return p;
+        return (a1 * x) >> (64 - l);
     }
 
 }
