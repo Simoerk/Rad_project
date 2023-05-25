@@ -28,11 +28,14 @@ class HashTable{
         // Hashing indgående værdi
         ulong hash = HashFunct.HashFunction(x,l);
         List<(ulong, int)> list = arrayOfLists[(ulong)hash];
+        // Gennemgår listen for at finde matchende nøgle
         foreach ((ulong, int) tuple in list){
+            // Hvis nøglen matcher, returner den tilsvarende værdi
             if (tuple.Item1 == x){
                 return tuple.Item2;
             }
         } 
+        // Hvis nøglen ikke findes, returner 0
         return 0;  
     }
 
@@ -69,4 +72,13 @@ class HashTable{
         }
     }
     
+
+    
+
+
+
+
+
+
+
 }
