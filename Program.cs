@@ -49,11 +49,13 @@ class Program
         Console.WriteLine("\n\n\n\n");
 
         //Opgave 3
-        for (int l = 1; l<= 19; l++){
+        int n = 32768;
+        int limit = 14;
+        for (int l = 1; l<= limit; l++){
             stopwatch_mulshift.Restart();
             HashTable hash_table_shift = new HashTable(hash_multiply_shift, l);
-            IEnumerable<Tuple<ulong, int>> stream_multi_shift = GenerateStream.CreateStream(1048576, l);
-            Console.WriteLine("Quadratic sum mulshift: {0}", hash_table_shift.quadratic_sum(stream_multi_shift));
+            IEnumerable<Tuple<ulong, int>> stream_multi_shift = GenerateStream.CreateStream(n, l);
+            Console.WriteLine("Quadratic sum mulshift: {0}, l:{1}", hash_table_shift.quadratic_sum(stream_multi_shift), l);
             stopwatch_mulshift.Stop();
             long time = stopwatch_mulshift.ElapsedMilliseconds;
             Console.WriteLine("MultiShift time: {0}", time);
@@ -66,8 +68,8 @@ class Program
         for (int l = 1; l<= 19; l++){
             stopwatch_mulmodprime.Restart();
             HashTable hash_table_mod = new HashTable(hash_multiply_shift, l);
-            IEnumerable<Tuple<ulong, int>> stream_multi_prime = GenerateStream.CreateStream(1048576, l);
-            Console.WriteLine("Quadratic sum mulmodprime: {0}", hash_table_mod.quadratic_sum(stream_multi_prime));
+            IEnumerable<Tuple<ulong, int>> stream_multi_prime = GenerateStream.CreateStream(n, l);
+            Console.WriteLine("Quadratic sum mulmodprime: {0} l: {1}", hash_table_mod.quadratic_sum(stream_multi_prime), l);
             stopwatch_mulmodprime.Stop();
             long time = stopwatch_mulmodprime.ElapsedMilliseconds;
             Console.WriteLine("MulModPrime time: {0}", time);
