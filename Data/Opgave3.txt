@@ -1,0 +1,84 @@
+Quadratic sum mulshift: 977341805008 l: 1
+MultiShift time: 506
+Quadratic sum mulshift: 488670902512 l: 2
+MultiShift time: 547
+Quadratic sum mulshift: 244335451264 l: 3
+MultiShift time: 636
+Quadratic sum mulshift: 122167725648 l: 4
+MultiShift time: 760
+Quadratic sum mulshift: 61083862864 l: 5
+MultiShift time: 599
+Quadratic sum mulshift: 30541931520 l: 6
+MultiShift time: 721
+Quadratic sum mulshift: 15270965936 l: 7
+MultiShift time: 578
+Quadratic sum mulshift: 7635483312 l: 8
+MultiShift time: 531
+Quadratic sum mulshift: 3817742368 l: 9
+MultiShift time: 593
+Quadratic sum mulshift: 1908872544 l: 10
+MultiShift time: 667
+Quadratic sum mulshift: 954438992 l: 11
+MultiShift time: 651
+Quadratic sum mulshift: 477224976 l: 12
+MultiShift time: 620
+Quadratic sum mulshift: 238623408 l: 13
+MultiShift time: 611
+Quadratic sum mulshift: 119333552 l: 14
+MultiShift time: 945
+Quadratic sum mulshift: 59710496 l: 15
+MultiShift time: 956
+Quadratic sum mulshift: 29942592 l: 16
+MultiShift time: 1256
+Quadratic sum mulshift: 15146048 l: 17
+MultiShift time: 1572
+Quadratic sum mulshift: 7922544 l: 18
+MultiShift time: 1602
+Quadratic sum mulshift: 4660320 l: 19
+MultiShift time: 2091
+Quadratic sum mulshift: 3728256 l: 20
+MultiShift time: 2911
+Quadratic sum mulshift: 4660336 l: 21
+MultiShift time: 3980
+Quadratic sum mulmodprime: 977341805008 l: 1
+Mulmodprime time: 1761
+Quadratic sum mulmodprime: 488670902512 l: 2
+Mulmodprime time: 1909
+Quadratic sum mulmodprime: 244335451264 l: 3
+Mulmodprime time: 2032
+Quadratic sum mulmodprime: 122167725648 l: 4
+Mulmodprime time: 1953
+Quadratic sum mulmodprime: 61083862880 l: 5
+Mulmodprime time: 2232
+Quadratic sum mulmodprime: 30541931504 l: 6
+Mulmodprime time: 2106
+Quadratic sum mulmodprime: 15270965936 l: 7
+Mulmodprime time: 2026
+Quadratic sum mulmodprime: 7635483312 l: 8
+Mulmodprime time: 1973
+Quadratic sum mulmodprime: 3817742352 l: 9
+Mulmodprime time: 1992
+Quadratic sum mulmodprime: 1908872448 l: 10
+Mulmodprime time: 2112
+Quadratic sum mulmodprime: 954438992 l: 11
+Mulmodprime time: 2342
+Quadratic sum mulmodprime: 477224896 l: 12
+Mulmodprime time: 2355
+Quadratic sum mulmodprime: 238623408 l: 13
+Mulmodprime time: 2253
+Quadratic sum mulmodprime: 119333440 l: 14
+Mulmodprime time: 2511
+Quadratic sum mulmodprime: 59710544 l: 15
+Mulmodprime time: 2815
+Quadratic sum mulmodprime: 29942624 l: 16
+Mulmodprime time: 2950
+Quadratic sum mulmodprime: 15146080 l: 17
+Mulmodprime time: 3163
+Quadratic sum mulmodprime: 7922576 l: 18
+Mulmodprime time: 3806
+Quadratic sum mulmodprime: 4660352 l: 19
+Mulmodprime time: 3951
+Quadratic sum mulmodprime: 3728224 l: 20
+Mulmodprime time: 5545
+Quadratic sum mulmodprime: 4660304 l: 21
+Mulmodprime time: 7182

@@ -1,0 +1,3 @@
+
+Using: 15Sum multiply shift: 8586623472
+Run time multiply shift: 69Sum mulmodprime: 8586623472Run time multiplty mod prime: 69

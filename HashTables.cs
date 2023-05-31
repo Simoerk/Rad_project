@@ -15,7 +15,7 @@ class HashTable{
     public HashTable(IHashFunct HashFunct, int l){
         this.HashFunct = HashFunct;
         this.l = l;
-        size = (2 << l);
+        size = (1 << l);
         arrayOfLists = new List<(ulong, int)>[size];
         for (int i = 0; i < size; i++){
             arrayOfLists[i] = new List<(ulong, int)>();
@@ -63,18 +63,20 @@ class HashTable{
         List<(ulong, int)> listVar = arrayOfLists[hash];
         for (int i = 0; i < arrayOfLists[hash].Count; i++){
             if (arrayOfLists[hash][i].Item1 == x){
-                
-            }arrayOfLists[hash][i] = (x, (arrayOfLists[hash][i].Item2 + d));
+            arrayOfLists[hash][i] = (x, (arrayOfLists[hash][i].Item2 + d));
+            return;
+            }
         }
         arrayOfLists[hash].Add((x,d));
     }
     
 
-    public ulong quadratic_sum(IEnumerable<Tuple<ulong, int>> stream){
+    public BigInteger quadratic_sum(IEnumerable<Tuple<ulong, int>> stream){
         //Console.WriteLine("Start");
         foreach (Tuple< ulong, int > key in stream){
             this.increment(key.Item1, key.Item2);
         } 
+        // Console.WriteLine("Done incrementing.\n");
         ulong counter = 0;
         //for hver indgang i hash tabellen
         foreach (List<(ulong, int)> list in arrayOfLists){
